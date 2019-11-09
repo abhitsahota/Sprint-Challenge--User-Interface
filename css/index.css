@@ -71,6 +71,54 @@ p {
     margin: 0 auto;
 }
 
+/* Nav Styling */
+
+.top-nav {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.top-nav nav {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.top-nav .nav-logo {
+	padding-right: 5%;
+}
+
+.top-nav a {
+	color: black;
+	text-decoration: none;
+    font-weight: 400;
+    font-size: .9em;
+}
+
+.top-nav a:hover {
+	color: #888;
+}
+
+.top-nav a:last-of-type {
+	padding-right: 5%;
+}
+
+
+
+/* Other styling */
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +158,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes #one {
+    background: teal;
+}
+
+.middle-content .boxes #two {
+    background: gold;
+}
+
+.middle-content .boxes #three {
+    background: cadetblue;
+}
+
+.middle-content .boxes #four {
+    background: coral;
+}
+
+.middle-content .boxes #five {
+    background: crimson;
+}
+
+.middle-content .boxes #six {
+    background: forestgreen;
+}
+
+.middle-content .boxes #seven {
+    background: darkorchid;
+}
+
+.middle-content .boxes #eight {
+    background: hotpink;
+}
+
+.middle-content .boxes #nine {
+    background: indigo;
+}
+
+.middle-content .boxes #ten {
+    background: dodgerblue;
 }
 
 .bottom-content {
